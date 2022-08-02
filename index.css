@@ -302,7 +302,7 @@ a{
     user-select: none;
 }
 .show{
-    height: 180px;
+    height: 200px;
 }
 .skillEdu .parra{
     text-align: left;
@@ -331,6 +331,7 @@ a{
 }
 #ingles{
     margin-left: 50px;
+    margin-right: 20px;
     padding: 5px 10px;
     background-color: var(--colorTres);
     border: none;
@@ -368,7 +369,7 @@ a{
 /* **************** CONTACTO **************** */
 .contacto{
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-color: var(--altColor);
     position: relative;
 }
