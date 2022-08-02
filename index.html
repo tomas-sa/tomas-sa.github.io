@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9414ea9334.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <script defer src="index.js"></script>
+    <title>Saravia portfolio</title>
+</head>
+<body>
+    <div class="contenedor-principal">
+        <nav class="nav">
+            <i class="fa-solid fa-bars"></i>
+            <ul class="lista-nav">
+                <li class="item-nav"><a href="#sobreMi">Sobre mi</a></li>
+                <li class="item-nav"><a href="#habilidades">habilidades</a></li>
+                <li class="item-nav"><a href="#proyectos">proyectos</a></li>
+                <li class="item-nav"><a href="#contacto">contacto</a></li>
+            </ul>
+        </nav>
+        <div id="hero" class="hero">
+            <aside class="aside">
+                <div class="aside-container">
+                    <a id="asideIcon" target="_blank" href="https://github.com/tomas-sa"><i class="fa-brands fa-github"></i></a>
+                    <a id="asideIcon" target="_blank" href="https://www.linkedin.com/in/tomas-saravia/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a id="asideIcon"  href="#"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </aside>
+            <div class="hero-main">
+                <div class="textos">
+                    <h1 class="header">TOMAS <span><img id="star" src="imagenes/Star 1.png" alt=""></span> <br> SARAVIA</h1>
+                    <h2 class="subheader"><span id="diff"> < Desarrollador web front-end /> <br></span> buscando mi primer trabajo IT</h2>
+                    <button id="down-cv">Descargar CV</button>
+                </div>
+            </div>
+            <div class="hero-two">
+                <!-- <img class="perfil-pic" src="imagenes/tomas.PNG" alt=""> -->
+               <!--  <img class="paleta" src="imagenes/Group 20.png" alt=""> -->
+            </div>
+        </div>
+        <div id="sobreMi" class="sobreMi">
+            <!-- <span class="adorno"></span> -->
+            <div class="contenedor-sobremi">
+                <img class="perfil-pic" src="imagenes/tomas.PNG" alt="">
+                <div class="textoContenedor">
+                    <h2 id="sobreMi-titulo" class="titulo-two">Sobre mi</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quia hic ratione enim repellat similique ut odio iure, architecto, tempore magni aperiam reprehenderit, deserunt ullam repudiandae? Ratione voluptates ducimus praesentium hic dolorum officia eaque soluta dicta quisquam, maxime repellat, sit ad, nisi dolorem voluptas fugiat. Nam aliquid amet rerum suscipit mollitia est hic eaque ut odit quod voluptate, facere voluptatum ipsa perferendis nulla vel reiciendis enim facilis! Tenetur, ducimus tempora.</p>
+                </div>
+            </div>
+        </div>
+        <div id="habilidades" class="habilidades">
+            <h2 class="titulo-two">habilidades</h2>
+            <div class="skills-contenedor">
+                <div class="skill-medio">
+                    <div class="skill skillTec">
+                        <div id="tecnologias" class="skillTitle">
+                            <i class="fa-solid fa-terminal"></i>
+                            <p>Tecnologías</p>
+                        </div>
+                        <div class="parra">
+                            <img src="imagenes/html-icono.png" alt="">
+                            <img src="imagenes/css-icono.png" alt="">
+                            <img src="imagenes/javascript-icono.png" alt="">
+                            <img src="imagenes/python-icono.png" alt="">
+                            <img src="imagenes/figma-icono.png" alt="">
+                        </div>
+                    </div>
+                    <div class="skill skillIdio">
+                        <div id="idiomas" class="skillTitle">
+                            <i class="fa-solid fa-language"></i>
+                            <p>Idiomas</p>
+                        </div>
+                        <div class="parra">
+                            <div id="idioma">
+                                <span id="flag"><img src="imagenes/GB.png" alt=""></span>
+                                <p>Inglés C1</p>
+                                <button id="ingles"><a target="_blank" href="https://www.efset.org/cert/ym9NAS">Certificado EF</a></button> 
+                            </div>
+                            <div id="idioma">
+                                <span id="flag"><img src="imagenes/IT.png" alt=""></span>
+                                <p>Italiano básico</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill skillEdu">
+                        <div id="educacion" class="skillTitle">
+                            <i class="fa-solid fa-book"></i>
+                            <p>Educación</p>
+                        </div>
+                        <div class="parra">
+                            <p><b>UNGS</b> <br> Tecnicatura en informática <br> 2021 - 2024 <br> <!-- (7 materias aprobadas) --></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="proyectos" class="proyectos">
+            <h2 class="titulo-two">Proyectos</h2>
+            <img id="proyecto-img" src="imagenes/shopping site.PNG" alt="">
+            <h3 id="sub-img">tienda de indumentaria</h3>
+        </div>
+        <div id="contacto" class="contacto">
+            <div class="datos-container">
+                <div class="mitel-cont">
+                    <i class="fa-solid fa-phone"></i>
+                    <div class="mi-telefono">
+                        <h2 id="nombreTel">Teléfono</h2>
+                        <h2 id="numeroTel">11 2752-9606</h2>
+                    </div>
+                </div>
+                <div class="mimail-cont">
+                    <i class="fa-solid fa-envelope carta"></i>
+                    <div class="mi-mail">
+                        <h2 id="nombreMail">E-mail</h2>
+                        <h2 id="dirMail">tomysaravia00@gmail.com</h2>
+                    </div>
+                </div>
+                <div class="midir-cont">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="mi-direccion">
+                        <h2 id="nombreDir">Dirección</h2>
+                        <h2 id="direccion">Polonia 305 - José. C. Paz</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="contacto-container">
+                <h2 class="titulo-two">Contacto</h2>
+                <form>
+                    <input class="contacto-item" type="text" id="nombre" placeholder="Nombre" required>
+                    <input class="contacto-item" type="E-mail" id="e-mail" placeholder="E-mail" required>
+                    <input class="contacto-item" type="Asunto" id="asunto" placeholder="Asunto" required>
+                    <textarea placeholder="mensaje" class="contacto-item" id="mensaje" rows="10" required></textarea>
+                    <button id="enviar" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+            <a class="flecha" href="#hero"><i class="fa-solid fa-arrow-up"></i></a>
+        <i id="toggler" class="fa-solid fa-moon"></i>
+    </div>
+</body>
+</html>
