@@ -508,7 +508,7 @@ h2, .skillTitle{
 
 @media screen and (max-width: 950px) {
     .header{
-        font-size: 4em;
+        font-size: 3em;
     }
     .fa-bars {
         display: initial;
