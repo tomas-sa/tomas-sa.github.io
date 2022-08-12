@@ -142,7 +142,7 @@
             </div>
             <div class="contacto-container">
                 <h2 class="titulo-two">Contacto</h2>
-                <form>
+                <form onsubmit="enviarEmail(); reset(); return false">
                     <input class="contacto-item" type="text" id="nombre" placeholder="Nombre" required>
                     <input class="contacto-item" type="E-mail" id="e-mail" placeholder="E-mail" required>
                     <input class="contacto-item" type="Asunto" id="asunto" placeholder="Asunto" required>

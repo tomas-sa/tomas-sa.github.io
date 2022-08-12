@@ -165,3 +165,20 @@ const menuBarra = document.querySelector('.fa-bars')
 menuBarra.addEventListener('click', ()=>{
     listaNav.classList.toggle('bajador')
 })
+
+// ******************** ENVIAR EMAIL ************************
+
+function enviarEmail(){
+    Email.send({
+    Host : "smtp.gmail.com",
+    Username : "tomysaravia00@gmail.com",
+    Password : "ahzjgfmtwmnhkbrq",
+    To : 'tomysaravia00@gmail.com',
+    From : document.getElementById('e-mail').value,
+    Subject : document.getElementById('asunto').value,
+    Body : "Nombre: " + document.getElementById('nombre').value
+    + '<br> mensaje: ' + document.getElementById('mensaje').value
+}).then(
+  message => alert('Mensaje enviado')
+);
+}
