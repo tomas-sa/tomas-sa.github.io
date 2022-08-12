@@ -359,9 +359,16 @@ a{
     user-select: none;
 }
 #proyecto-img{
-    width: 40%;
+    width: 100%;
     height: fit-content;
+    cursor: pointer;
+}
+.img-contenedor{
     margin: 40px 0;
+    width: 60rem;
+}
+.img-contenedor:hover{
+    filter: brightness(70%);
 }
 #sub-img{
     color: var(--mainColor);
