@@ -587,5 +587,10 @@ h2, .skillTitle{
     .datos-container{
         position: initial;
     }
+    .img-contenedor{
+    margin: 40px 0;
+    width: 260px;
+    margin: 0;
+}
     
 }
