@@ -587,6 +587,9 @@ h2, .skillTitle{
         height: auto;
         padding-top: 40px;
     }
+    .proyecto{
+        width: 100%;
+    }
     .contacto{
         display: flex;
         flex-direction: column-reverse;
@@ -598,7 +601,7 @@ h2, .skillTitle{
     }
     
     .datos-container{
-        position: initial;
+        /* position: initial; */
     }
     .img-contenedor{
     margin: 40px 0;
