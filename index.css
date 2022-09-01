@@ -350,7 +350,7 @@ a{
 /* **************** PROYECTOS **************** */
 .proyectos{
     width: 100%;
-    height: 80vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -366,6 +366,7 @@ a{
 .img-contenedor{
     margin: 40px 0;
     width: 60rem;
+    position: relative;
 }
 .img-contenedor:hover{
     filter: brightness(70%);
@@ -374,6 +375,17 @@ a{
     color: var(--mainColor);
     font-family: 'dejavu';
 }
+.contenedor-titulo-proyecto{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+/* .logo-flotante{
+    position: absolute;
+    left: -20px;
+    top: -20px;
+} */
 /* **************** CONTACTO **************** */
 .contacto{
     width: 100%;
