@@ -283,6 +283,7 @@ a{
     text-transform: capitalize;
     font-weight: 100;
     font-family: 'newake';
+    padding: 50px 0;
 }
 .fa-code{
     width: 50px;
@@ -365,7 +366,7 @@ a{
 }
 .img-contenedor{
     margin: 40px 0;
-    width: 60rem;
+    width: 40rem;
     position: relative;
 }
 .img-contenedor:hover{
@@ -380,12 +381,12 @@ a{
     align-items: center;
     gap: 10px;
     padding: 10px 0;
+    /* border-bottom: 2px solid black; */
 }
-/* .logo-flotante{
-    position: absolute;
-    left: -20px;
-    top: -20px;
-} */
+.logo-flotante{
+    width: 3.6rem;
+    height: 3.6rem;
+}
 /* **************** CONTACTO **************** */
 .contacto{
     width: 100%;
@@ -527,6 +528,53 @@ h2, .skillTitle{
     --colorCinco: #334756;
     --colorAside: black;
 }
+#react-color{
+    color: #3F56DC;
+    animation: react 1s ease-in-out infinite alternate;
+}
+#html-color{
+    color: orangered;
+    animation: html 1s ease-in-out infinite alternate;
+}
+#css-color{
+    color: rgb(123, 123, 250);
+    animation: css 1s ease-in-out infinite alternate;
+}
+#java-color{
+    color: rgb(190, 233, 0);
+    animation: java 1s ease-in-out infinite alternate;
+}
+@keyframes react {
+    from {color: var(--mainColor);}
+    to {color: #3F56DC;}
+}
+@keyframes html {
+    from {
+        color: var(--mainColor);
+    }
+
+    to {
+        color: orangered;
+    }
+}
+@keyframes css {
+    from {
+        color: var(--mainColor);
+    }
+
+    to {
+        color: rgb(123, 123, 250);
+    }
+}
+@keyframes java {
+    from {
+        color: var(--mainColor);
+    }
+
+    to {
+        color: rgb(190, 233, 0);
+    }
+}
 
 @media screen and (max-width: 950px) {
     .header{
@@ -610,6 +658,10 @@ h2, .skillTitle{
 }
 .contenedor-titulo-proyecto{
     width: 350px;
+}
+.logo-flotante {
+    width: 2.2rem;
+    height: 2.2rem;
 }
     
 }
