@@ -588,7 +588,7 @@ h2, .skillTitle{
         padding-top: 40px;
     }
     .proyecto{
-        width: 100%;
+        width: 350px;
     }
     .contacto{
         display: flex;
@@ -607,6 +607,9 @@ h2, .skillTitle{
     margin: 40px 0;
     width: 260px;
     margin: 0;
+}
+.contenedor-titulo-proyecto{
+    width: 350px;
 }
     
 }
