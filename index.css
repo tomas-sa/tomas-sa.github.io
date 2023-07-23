@@ -325,6 +325,9 @@ a{
     border-radius: 0 0 10px 10px;
     width: 100%;
 }
+.parra>*{
+    width: 50px;
+}
 #idioma{
     display: flex;
     gap: 15px;
@@ -375,17 +378,34 @@ a{
 #sub-img{
     color: var(--mainColor);
     font-family: 'dejavu';
+    width: max-content;
 }
 .contenedor-titulo-proyecto{
     display: flex;
     align-items: center;
     gap: 10px;
     padding: 10px 0;
+    justify-content: center;
     /* border-bottom: 2px solid black; */
 }
 .logo-flotante{
     width: 3.6rem;
     height: 3.6rem;
+}
+.proyecto{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gitLink{
+    position: absolute;
+    top: 60%;
+    right: -30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 /* **************** CONTACTO **************** */
 .contacto{
@@ -520,6 +540,16 @@ h2, .skillTitle{
     display: initial;
     transform: scale(1);
 }
+.gitStack{
+    display: flex;
+    gap: 20px;
+}
+.gitEnd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
 .dark{
     --mainColor: #f1f1f1;
     --altColor: #2C394B;
@@ -543,6 +573,14 @@ h2, .skillTitle{
 #java-color{
     color: rgb(190, 233, 0);
     animation: java 1s ease-in-out infinite alternate;
+}
+#python-color{
+    color: rgb(55, 190, 43);
+    animation: python 1s ease-in-out infinite alternate;
+}
+#django-color{
+    color: rgb(241, 18, 18);
+    animation: django 1s ease-in-out infinite alternate;
 }
 @keyframes react {
     from {color: var(--mainColor);}
@@ -573,6 +611,24 @@ h2, .skillTitle{
 
     to {
         color: rgb(190, 233, 0);
+    }
+}
+@keyframes python {
+    from {
+        color: var(--mainColor);
+    }
+
+    to {
+        color: rgb(43, 196, 81);
+    }
+}
+@keyframes django {
+    from {
+        color: var(--mainColor);
+    }
+
+    to {
+        color: rgb(247, 22, 22);
     }
 }
 
@@ -648,9 +704,6 @@ h2, .skillTitle{
         transform: translateX(-50%);
     }
     
-    .datos-container{
-        /* position: initial; */
-    }
     .img-contenedor{
     margin: 40px 0;
     width: 260px;
@@ -662,6 +715,10 @@ h2, .skillTitle{
 .logo-flotante {
     width: 2.2rem;
     height: 2.2rem;
+}
+.gitLink{
+    position: initial;
+    margin: 50px 0;
 }
     
 }
